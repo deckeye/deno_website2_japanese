@@ -80,7 +80,7 @@ The Deno runtime API allows developers to write text to files via the
 `Deno.writeTextFile()` method. It just requires a file path and text string. The
 method returns a promise which resolves when the file was successfully written.
 -->
-DenoランタイムAPIは `Deno.writeTextFile()` メソッドを通してテキストファイルを読み込むことを可能にしています。このメソッドはパスかURLオブジェクトを要求します。このメソッドはファイルが正常に書き込まれたときに解決するプロミスを返します。
+DenoランタイムAPIは `Deno.writeTextFile()` メソッドを通してテキストファイルを書き込むことを可能にしています。このメソッドはパスかURLオブジェクトを要求します。このメソッドはファイルが正常に書き込まれたときに解決するプロミスを返します。
 
 <!--
 To run the command the `--allow-write` flag must be supplied to the `deno run`
